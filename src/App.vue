@@ -16,10 +16,12 @@ export default {
 
         <!-- Jumbotron section -->
         <section class="jumbo">
-            <div class="container d-flex">
-                <h6>CINEMATO STUDIO</h6>
-                <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
-                <button>READ MORE</button>
+            <div class="container">
+                <div class="text-box d-flex">
+                    <h6>CINEMATO STUDIO</h6>
+                    <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
+                    <button class="btn-light">READ MORE</button>
+                </div>
             </div>
 
         </section>
@@ -85,7 +87,22 @@ export default {
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="about">
+            <div class="container d-flex">
+                <div class="text-box d-flex">
+                    <h6>ABOUT US</h6>
+                    <h2>HIGH QUALITY CINEMA</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, repellendus dolore
+                        distinctio cumque neque voluptatibus eius reiciendis sunt non tenetur quasi incidunt deserunt
+                        aliquid sed? Reiciendis dolores similique officia aliquid.
+                    </p>
+                    <button class="btn-light">READ MORE</button>
+
+                </div>
+            </div>
+
+        </section>
         <section></section>
         <section></section>
         <section></section>
@@ -164,6 +181,25 @@ a {
     padding: 3rem;
 }
 
+.text-box {
+    position: relative;
+    flex-direction: column;
+    color: var(--cine--lightest);
+    justify-content: center;
+    height: 100%;
+}
+
+.btn-light {
+    background-color: var(--cine--lightest);
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 1rem;
+
+}
+
 /* #endregion Utilities */
 
 #site-main {
@@ -190,42 +226,24 @@ a {
 
         }
 
-        &>div {
-            position: relative;
-            z-index: 100;
-            flex-direction: column;
-            color: var(--cine--lightest);
-            justify-content: center;
+        .container {
             height: 100%;
-
-
-            & h1 {
-
-                font-size: 3rem;
-                word-spacing: 5px;
-                letter-spacing: 2px;
-                line-height: 60px;
-            }
-
-            & h6 {
-                letter-spacing: 2px;
-                word-spacing: 5px;
-
-            }
-
-
-            & button {
-                background-color: var(--cine--lightest);
-                border: none;
-                padding: 0.5rem 1rem;
-                font-size: 10px;
-                font-weight: bold;
-                width: fit-content;
-                margin-top: 1rem;
-
-            }
         }
 
+
+        & h1 {
+
+            font-size: 3rem;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            line-height: 60px;
+        }
+
+        & h6 {
+            letter-spacing: 2px;
+            word-spacing: 5px;
+
+        }
 
     }
 
@@ -263,6 +281,26 @@ a {
             }
         }
 
+    }
+
+    .about {
+        background-image: url(/img/About-Us.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 25rem;
+
+        .container {
+            height: 100%;
+            justify-content: end;
+        }
+
+        .text-box {
+
+            width: 50%;
+            gap: 0.5rem;
+
+
+        }
     }
 
 }
