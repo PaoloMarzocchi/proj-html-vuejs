@@ -144,7 +144,28 @@ export default {
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="stats">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col">
+                        <h2>158</h2>
+                        <h6>SATISFIED CLIENTS</h6>
+                    </div>
+                    <div class="col">
+                        <h2>3 +</h2>
+                        <h6>OUR PROJECTS</h6>
+                    </div>
+                    <div class="col">
+                        <h2>1.906</h2>
+                        <h6>CUP OF COFFEE</h6>
+                    </div>
+                    <div class="col">
+                        <h2>2</h2>
+                        <h6>OUR AWARDS</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>

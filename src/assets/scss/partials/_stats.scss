@@ -1,0 +1,24 @@
+@use './variables' as *;
+
+.stats {
+    background-image: url(/img/Parallax-01.jpg);
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+
+    .row {
+        gap: 2rem;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+
+        .col {
+            width: calc(100%/12*3);
+            gap: 0.5rem;
+            flex-direction: column;
+            color: $cine-lightest;
+
+        }
+    }
+
+}
