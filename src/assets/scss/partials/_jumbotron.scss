@@ -2,6 +2,11 @@
     height: 30rem;
     position: relative;
 
+    .container {
+        margin: 0 auto;
+    }
+
+
     &::before {
         content: '';
         position: absolute;

@@ -39,7 +39,7 @@ a {
 }
 
 .p-section {
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .text-box {
@@ -64,7 +64,15 @@ a {
 .section-title {
     text-align: center;
 
-    & h2 {
+    h2 {
         margin: 0.5rem 0;
     }
 }
+
+.row {
+    margin: 0 -1rem;
+}
+
+/* .col {
+    padding: 0 1rem;
+} */

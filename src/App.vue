@@ -13,7 +13,7 @@ export default {
     <AppHeader></AppHeader>
 
     <div id="site-main">
-
+        <!-- <div class="container"> -->
         <!-- Jumbotron section -->
         <section class="jumbo">
             <div class="container">
@@ -87,7 +87,7 @@ export default {
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about ">
             <div class="container d-flex">
                 <div class="text-box d-flex">
                     <h6>ABOUT US</h6>
@@ -112,43 +112,31 @@ export default {
             <div class="container">
                 <div class="row d-flex">
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-01.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
                     </div>
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-02.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
                     </div>
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-03.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
                     </div>
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-04.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
                     </div>
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-05.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
                     </div>
                     <div class="col d-flex">
-                        <!-- <div class="top">
-                        </div> -->
                         <img src="/img/Gallery-01.jpg" alt="">
                         <h4>SEVENTEENTH SUMMER</h4>
                         <span>Commercial, Music Video</span>
@@ -162,7 +150,7 @@ export default {
         <section></section>
         <section></section>
         <section></section>
-
+        <!-- </div> -->
     </div>
     <div id="site-footer">
         <div class="top">
@@ -187,6 +175,8 @@ export default {
 #site-main {
 
     margin: 0 5px;
+
+
 
 }
 </style>
