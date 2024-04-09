@@ -1,0 +1,40 @@
+.jumbo {
+    height: 30rem;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/jumbotron.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(50%);
+
+
+    }
+
+    .container {
+        height: 100%;
+    }
+
+
+    h1 {
+
+        font-size: 3rem;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        line-height: 60px;
+    }
+
+    h6 {
+        letter-spacing: 2px;
+        word-spacing: 5px;
+
+    }
+
+}

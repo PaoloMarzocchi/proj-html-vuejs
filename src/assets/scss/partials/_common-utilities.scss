@@ -1,0 +1,70 @@
+@use './variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Reem Kufi Fun", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* #endregion Common */
+
+/* #region Utilities */
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.p-section {
+    padding: 3rem;
+}
+
+.text-box {
+    position: relative;
+    flex-direction: column;
+    color: $cine-lightest;
+    justify-content: center;
+    height: 100%;
+}
+
+.btn-light {
+    background-color: $cine-lightest;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 1rem;
+
+}
+
+.section-title {
+    text-align: center;
+
+    & h2 {
+        margin: 0.5rem 0;
+    }
+}

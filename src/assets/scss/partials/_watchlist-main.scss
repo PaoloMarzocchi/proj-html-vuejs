@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+.row {
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100%/12*4);
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+
+    & span {
+        color: var(--cine--dark)
+    }
+}
