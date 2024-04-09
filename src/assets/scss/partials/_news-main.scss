@@ -1,0 +1,15 @@
+@use './variables' as *;
+
+.news {
+
+    .col {
+        width: calc(100%/12*4);
+        padding: 0 1rem;
+        flex-direction: column;
+        gap: 0.7rem;
+
+        .date {
+            color: $cine-dark;
+        }
+    }
+}
