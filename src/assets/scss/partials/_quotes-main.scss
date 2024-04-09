@@ -1,0 +1,39 @@
+@use './variables' as *;
+
+.quotes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 40rem; */
+    height: 25rem;
+    gap: 2rem;
+    color: $cine-lightest;
+    background-image: url(/img/Parallax-02.jpg);
+
+    .top-img {
+        width: 4rem;
+
+        svg {
+            fill: $cine-lightest;
+
+        }
+    }
+
+    p {
+        max-width: 40rem;
+        text-align: center;
+    }
+
+    .quote-author {
+        gap: 1rem;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    i {
+        font-size: 0.5rem;
+        margin: 0 0.5rem;
+    }
+}
