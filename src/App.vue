@@ -147,26 +147,55 @@ export default {
         <section class="stats">
             <div class="container">
                 <div class="row d-flex">
-                    <div class="col">
+                    <div class="col d-flex">
                         <h2>158</h2>
                         <h6>SATISFIED CLIENTS</h6>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex">
                         <h2>3 +</h2>
                         <h6>OUR PROJECTS</h6>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex">
                         <h2>1.906</h2>
                         <h6>CUP OF COFFEE</h6>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex">
                         <h2>2</h2>
                         <h6>OUR AWARDS</h6>
                     </div>
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="team p-section">
+            <div class="section-title">
+                <h6>THE PERICUROS</h6>
+                <h2>MEET THE TEAM</h2>
+            </div>
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col d-flex">
+                        <img src="/img/Team-01.jpg" alt="">
+                        <h4>FABRICIO GUERRA</h4>
+                        <span>Main director</span>
+                    </div>
+                    <div class="col d-flex">
+                        <img src="/img/Team-02.jpg" alt="">
+                        <h4>UMBERTO PAGODA</h4>
+                        <span>Main writer</span>
+                    </div>
+                    <div class="col d-flex">
+                        <img src="/img/Team-03.jpg" alt="">
+                        <h4>GLORIA RICCASSO</h4>
+                        <span>Main producer</span>
+                    </div>
+                    <div class="col d-flex">
+                        <img src="/img/Team-04.jpg" alt="">
+                        <h4>LIO NAPOIN</h4>
+                        <span>Cameraman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>

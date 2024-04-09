@@ -1,15 +1,15 @@
-@use './variables' as *;
+@use './variables' as*;
 
-.watchlist {
+.team {
 
     .row {
-        flex-wrap: wrap;
-
+        flex-wrap: nowrap;
+        gap: 1rem;
 
         .col {
-            width: calc(100% / 12 *4);
+            width: calc(100% / 12 * 4);
             flex-direction: column;
-            gap: 0.8rem;
+            gap: 1rem;
             text-align: center;
             padding: 0 1rem;
             margin-bottom: 1rem;
