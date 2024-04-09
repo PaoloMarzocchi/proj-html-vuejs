@@ -89,7 +89,7 @@ export default {
             <div class="container d-flex">
                 <div class="text-box d-flex">
                     <h6>ABOUT US</h6>
-                    <h2>HIGH QUALITY CINEMA</h2>
+                    <h2>HIGH QUALITY CINEMATICS</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, repellendus dolore
                         distinctio cumque neque voluptatibus eius reiciendis sunt non tenetur quasi incidunt deserunt
