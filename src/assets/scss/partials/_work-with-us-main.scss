@@ -1,0 +1,59 @@
+@use './variables' as *;
+
+#work-with-us {
+
+    .col {
+        width: calc(100%/12*6);
+    }
+
+    .section-title {
+        text-align: start;
+
+        h2 {
+            margin: 0.5rem 0;
+        }
+
+        p {
+            color: $cine-dark;
+        }
+    }
+
+    form {
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        input,
+        textarea {
+            margin-bottom: 1.5rem;
+            padding: 0.5rem;
+            border: none;
+            background-color: $cine-light;
+            color: $cine-dark;
+
+            &::placeholder {
+                font-family: "Reem Kufi Fun", sans-serif;
+                color: $cine-dark;
+            }
+        }
+
+        input {
+            width: calc(100%/2 - 1rem);
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: $cine-darkest;
+            color: $cine-lightest;
+            border: none;
+            padding: 0.5rem;
+            font-size: 10px;
+            font-weight: bold;
+            width: 100%;
+
+        }
+    }
+}

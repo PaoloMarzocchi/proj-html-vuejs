@@ -255,7 +255,7 @@ export default {
                 </div>
             </div>
         </section>
-        <section id="partner">
+        <section id="partner" class="p-section">
             <div class="container">
                 <div class="row d-flex">
                     <div class="col">
@@ -276,7 +276,38 @@ export default {
                 </div>
             </div>
         </section>
-        <section></section>
+        <section id="work-with-us" class="p-section">
+            <div class="container d-flex">
+                <div class="col message">
+                    <div class="section-title">
+                        <h6>COLLABORATE</h6>
+                        <h2>
+                            WANT TO WORK WITH US? <br>
+                            LEAVE US A MESSAGE!
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem asperiores
+                            necessitatibus quaerat? Fuga magnam quaerat deserunt ducimus aut, nesciunt provident esse
+                            perspiciatis cumque? Laboriosam reprehenderit rem eligendi vero autem.
+                        </p>
+                    </div>
+                </div>
+                <form class="col d-flex">
+                    <input type="text" name="full-name" id="full-name" placeholder="Your name">
+
+                    <input type="email" name="mail" id="mail" placeholder="Your email">
+
+                    <input type="number" name="phone" id="phone" placeholder="Mobile number">
+
+                    <input type="password" name="password" id="password" placeholder="Your pincode">
+
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter your message"></textarea>
+                    <button type="submit">SUBMIT NOW</button>
+
+                </form>
+            </div>
+        </section>
         <!-- </div> -->
     </div>
     <div id="site-footer">
