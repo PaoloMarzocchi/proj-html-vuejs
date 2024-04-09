@@ -1,0 +1,18 @@
+@use './variables' as *;
+
+#partner {
+    height: 15rem;
+    background-image: url(/img/Parallax-03.jpg);
+    background-size: cover;
+
+    .row {
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        gap: 1rem;
+
+        .col {
+            padding: 0 1rem;
+        }
+    }
+}

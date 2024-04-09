@@ -255,7 +255,27 @@ export default {
                 </div>
             </div>
         </section>
-        <section></section>
+        <section id="partner">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col">
+                        <img src="/img/01.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/02.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/03.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/04.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/05.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section></section>
         <!-- </div> -->
     </div>
