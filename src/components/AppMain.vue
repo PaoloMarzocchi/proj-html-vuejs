@@ -250,21 +250,21 @@ export default {
             <div class="container">
                 <div class="row d-flex">
                     <div class="col d-flex">
-                        <img src="/img/blog01.jpg" alt="">
+                        <img src="/img/blog07.jpg" alt="">
                         <span class="date">November 06 , 2021 By Admin</span>
-                        <h4>RECAP YOUR LATEST COMPANY EVENT</h4>
+                        <h5>RECAP YOUR LATEST COMPANY EVENT</h5>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ex.</span>
+                    </div>
+                    <div class="col d-flex">
+                        <img src="/img/blog01.jpg" alt="">
+                        <span class="date">May 27 , 2022 By Admin</span>
+                        <h5>HOW TO EDIT A FILM SCORE TO SERVE</h5>
                         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ex.</span>
                     </div>
                     <div class="col d-flex">
                         <img src="/img/blog02.jpg" alt="">
-                        <span class="date">May 27 , 2022 By Admin</span>
-                        <h4>HOW TO EDIT A FILM SCORE TO SERVE</h4>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ex.</span>
-                    </div>
-                    <div class="col d-flex">
-                        <img src="/img/blog06.jpg" alt="">
                         <span class="date">May 07 , 2022 By Admin</span>
-                        <h4>ARE YOU READY TO MAKE IT AWESOME</h4>
+                        <h5>ARE YOU READY TO MAKE IT AWESOME</h5>
                         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, ex.</span>
                     </div>
                 </div>

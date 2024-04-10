@@ -5,6 +5,7 @@
 
         padding-top: 1rem;
 
+
         .col {
             width: calc(100%/12*4);
             padding: 0 1rem;
@@ -13,6 +14,12 @@
 
             .date {
                 color: $cine-dark;
+
+            }
+
+            .date,
+            span {
+                font-size: 13px;
             }
         }
     }
