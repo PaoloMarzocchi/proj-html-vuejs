@@ -18,6 +18,7 @@ export default {
             <img :src="'/img/' + logo" style="width: 10rem;" alt="">
 
         </div>
+        <!-- Navigation menu -->
         <div class="menu">
             <ul class="d-flex">
                 <li class="d-flex" v-for="item in menu">
@@ -36,6 +37,7 @@ export default {
                 </li>
             </ul>
         </div>
+        <!-- /Navigation menu -->
         <div class="tools d-flex">
 
             <div class="search">

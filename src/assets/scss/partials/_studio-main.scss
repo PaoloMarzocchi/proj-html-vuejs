@@ -6,24 +6,32 @@
     .row {
         padding: 1rem 0;
         flex-wrap: wrap;
-
+        margin: 0 -1.5rem;
     }
 
     .col {
         width: calc(100%/12 * 4);
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        padding: 0 1.5rem;
         justify-content: space-between;
         padding-top: 3rem;
+        gap: 1rem;
 
         .top {
             height: 5.5rem;
             width: 5rem;
+            align-items: center;
+
+            img {
+                max-height: 100%;
+
+            }
         }
 
         p {
             text-align: center;
+            color: $cine-dark;
         }
     }
 

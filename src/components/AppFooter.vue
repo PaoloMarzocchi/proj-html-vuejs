@@ -21,10 +21,10 @@ export default {
                                 <li :class="key === 'contacts' ? 'd-flex' : ''" v-for="element in elements.list">
                                     <template v-if="key === 'contacts'">
                                         <img :src="'/img/' + element.icon" alt="">
-                                        {{ element.info }}
+                                        <a href="#">{{ element.info }}</a>
                                     </template>
                                     <template v-else>
-                                        {{ element }}
+                                        <a href="#">{{ element }}</a>
                                     </template>
                                 </li>
                             </ul>

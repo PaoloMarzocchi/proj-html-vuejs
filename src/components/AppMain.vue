@@ -30,7 +30,7 @@ export default {
             <div class="container">
                 <div class="row d-flex">
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (14).svg" alt="">
                         </div>
 
@@ -39,7 +39,7 @@ export default {
 
                     </div>
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (16).svg" alt="">
                         </div>
                         <h4>NEW TECHNOLOGIES</h4>
@@ -47,7 +47,7 @@ export default {
 
                     </div>
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (18).svg" alt="">
                         </div>
                         <h4>VERSITILE ACTORS</h4>
@@ -55,7 +55,7 @@ export default {
 
                     </div>
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (15).svg" alt="">
                         </div>
                         <h4>TOP DIRECTORS</h4>
@@ -63,7 +63,7 @@ export default {
 
                     </div>
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (17).svg" alt="">
                         </div>
                         <h4>MINUTE EDITING</h4>
@@ -71,7 +71,7 @@ export default {
 
                     </div>
                     <div class="col d-flex">
-                        <div class="top">
+                        <div class="top d-flex">
                             <img src="/img/image (19).svg" alt="">
                         </div>
                         <h4>VERSITILE ACTORS</h4>
@@ -119,28 +119,28 @@ export default {
                     </div>
                     <div class="col d-flex">
                         <img src="/img/Gallery-02.jpg" alt="">
-                        <h4>SEVENTEENTH SUMMER</h4>
-                        <span>Commercial, Music Video</span>
+                        <h4>A MESSAGE TO SPACE</h4>
+                        <span>Short Film</span>
                     </div>
                     <div class="col d-flex">
                         <img src="/img/Gallery-03.jpg" alt="">
-                        <h4>SEVENTEENTH SUMMER</h4>
-                        <span>Commercial, Music Video</span>
+                        <h4>THE MOST BEAUTIFUL THING</h4>
+                        <span>Music Video</span>
                     </div>
                     <div class="col d-flex">
                         <img src="/img/Gallery-04.jpg" alt="">
-                        <h4>SEVENTEENTH SUMMER</h4>
-                        <span>Commercial, Music Video</span>
+                        <h4>PERMISSION TO SPEAK</h4>
+                        <span>Documentary</span>
                     </div>
                     <div class="col d-flex">
                         <img src="/img/Gallery-05.jpg" alt="">
-                        <h4>SEVENTEENTH SUMMER</h4>
-                        <span>Commercial, Music Video</span>
+                        <h4>EXPLORE OUR SPACE</h4>
+                        <span>Film Noir</span>
                     </div>
                     <div class="col d-flex">
                         <img src="/img/Gallery-01.jpg" alt="">
-                        <h4>SEVENTEENTH SUMMER</h4>
-                        <span>Commercial, Music Video</span>
+                        <h4>FILM PRODUCTION</h4>
+                        <span>Blaxploitation</span>
                     </div>
                 </div>
             </div>
@@ -219,9 +219,11 @@ export default {
                 </svg>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis magni praesentium animi.
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis magni praesentium animi.
                 Officiis blanditiis distinctio commodi ipsam? Perspiciatis blanditiis labore sed, aut saepe hic illo
-                sunt a est ab!</p>
+                sunt a est ab!
+            </p>
             <div class="quote-author d-flex">
                 <img src="/img/01.jpg" alt="">
                 <div class="author-info">
@@ -275,12 +277,6 @@ export default {
             <div class="container">
                 <div class="row d-flex">
                     <div class="col">
-                        <img src="/img/01.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="/img/02.png" alt="">
-                    </div>
-                    <div class="col">
                         <img src="/img/03.png" alt="">
                     </div>
                     <div class="col">
@@ -288,6 +284,12 @@ export default {
                     </div>
                     <div class="col">
                         <img src="/img/05.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/01.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/img/02.png" alt="">
                     </div>
                 </div>
             </div>

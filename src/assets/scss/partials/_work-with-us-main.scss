@@ -4,19 +4,22 @@
 
     .col {
         width: calc(100%/12*6);
+        padding-right: 3rem;
+
+        .section-title {
+            text-align: start;
+
+            h2 {
+                margin: 1rem 0;
+            }
+
+            p {
+                color: $cine-dark;
+            }
+        }
     }
 
-    .section-title {
-        text-align: start;
 
-        h2 {
-            margin: 0.5rem 0;
-        }
-
-        p {
-            color: $cine-dark;
-        }
-    }
 
     form {
 
