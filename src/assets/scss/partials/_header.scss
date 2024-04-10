@@ -23,20 +23,48 @@
         ul {
             align-items: center;
             gap: 2rem;
-            font-size: 11px;
-            font-weight: bold;
+            font-size: 13px;
+
 
             li {
-                padding: 0;
+                padding: 0.5rem 0;
                 gap: 2px;
+                position: relative;
+                font-weight: bold;
+
+                .dropdown-menu {
+                    display: none;
+                    color: $cine-lightest;
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                    z-index: 1;
+                    width: 9rem;
+
+
+                    li {
+                        background-color: $cine-darkest;
+                        padding: 0.5rem;
+                        border-bottom: 1px solid $cine-dark;
+                        font-size: 10px;
+
+                        &:hover {
+                            width: 10rem;
+                        }
+                    }
+                }
+
+                &:hover .dropdown-menu {
+                    display: block;
+                }
             }
 
-            svg {
+            img {
                 display: inline-block;
                 width: 8px;
                 height: 8px;
                 align-self: flex-end;
-                margin-bottom: 2px;
+                margin-bottom: 5px;
             }
         }
     }
@@ -53,16 +81,16 @@
             padding: 0 0.7rem;
             align-items: center;
 
-            svg {
+            img {
                 width: 16px;
                 height: 16px;
-                line-height: 16px;
+
             }
         }
 
         .social {
 
-            svg {
+            img {
                 width: 12px;
                 height: 12px;
                 margin: 0 0.7rem;
