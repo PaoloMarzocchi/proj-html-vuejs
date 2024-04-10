@@ -1,6 +1,9 @@
 <script>
 export default {
     name: 'AppFooter',
+    props: {
+        footerEl: Object,
+    }
 }
 </script>
 
@@ -9,80 +12,35 @@ export default {
         <div class="top">
             <div class="container">
                 <div class="row d-flex">
+                    <template v-for="(elements, key) in footerEl">
+                        <div class="col" v-if="key !== 'newsletter' && key !== 'copyright'">
+                            <ul>
+                                <li>
+                                    <h4>{{ elements.title }}</h4>
+                                </li>
+                                <li :class="key === 'contacts' ? 'd-flex' : ''" v-for="element in elements.list">
+                                    <template v-if="key === 'contacts'">
+                                        <img :src="'/img/' + element.icon" alt="">
+                                        {{ element.info }}
+                                    </template>
+                                    <template v-else>
+                                        {{ element }}
+                                    </template>
+                                </li>
+                            </ul>
+                        </div>
+                    </template>
                     <div class="col">
                         <ul>
                             <li>
-                                <h4>CONTACT INFO</h4>
-                            </li>
-                            <li class="d-flex">
-                                <img src="/img/footer-location-dot-solid.svg" alt="">
-                                2/45 Tower Street, New York USA
-                            </li>
-                            <li class="d-flex">
-                                <img src="/img/footer-phone-solid.svg" alt="">
-
-                                Call Us On 0800 840 1010
-                            </li>
-                            <li class="d-flex">
-                                <img src="/img/footer-envelope-soli.svg" alt="">
-                                Demo@Example.Com
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>
-                                <h4>INFORMATION</h4>
+                                <h4>{{ footerEl.newsletter.title }}</h4>
                             </li>
                             <li>
-                                Product Support
+                                {{ footerEl.newsletter.message }}
                             </li>
                             <li>
-                                Checkout
-                            </li>
-                            <li>
-                                Report Abuse
-                            </li>
-                            <li>
-                                Redeem Voucher
-                            </li>
-                            <li>
-                                Order Status
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>
-                                <h4>USEFUL LINKS</h4>
-                            </li>
-                            <li>
-                                Policies & Rules
-                            </li>
-                            <li>
-                                Privacy Policy
-                            </li>
-                            <li>
-                                License Policy
-                            </li>
-                            <li>
-                                My Account
-                            </li>
-                            <li>
-                                Locality
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul>
-                            <li>
-                                <h4>NEWSLETTER</h4>
-                            </li>
-                            <li>
-                                Subscribe To Receive Inspiration, Ideas & News In Your Inbox
-                            </li>
-                            <li>
-                                <input type="email" placeholder="Enter Your Email">
+                                <input type="email" placeholder="Enter Your Email"
+                                    v-model="footerEl.newsletter.inputEmail">
                             </li>
                             <li>
                                 <button class="btn-light">SUBSCRIBE</button>
@@ -91,11 +49,9 @@ export default {
                     </div>
                 </div>
             </div>
-
-
         </div>
         <div class="bottom">
-            &copy; 2024 All Rights Reserved. Developed By Paolo Marzocchi
+            &copy; {{ footerEl.copyright }}
         </div>
     </div>
 </template>

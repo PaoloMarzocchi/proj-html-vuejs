@@ -12,7 +12,7 @@ export default {
     },
     data() {
         return {
-            navBar: {
+            navBarEl: {
                 logo: 'logo.svg',
                 menu: [
                     {
@@ -61,17 +61,50 @@ export default {
 
                 }
             },
+            footerEl: {
+                contacts: {
+                    title: 'CONTACT INFO',
+                    list: [
+                        {
+                            info: '2/45 Tower Street, New York USA',
+                            icon: 'footer-location-dot-solid.svg',
+                        },
+                        {
+                            info: 'Call Us On 0800 840 1010',
+                            icon: 'footer-phone-solid.svg',
+                        },
+                        {
+                            info: 'Demo@Example.Com',
+                            icon: 'footer-envelope-soli.svg',
+                        }
+                    ]
+                },
+                infos: {
+                    title: 'INFORMATION',
+                    list: ['Product Support', 'Checkout', 'Report Abuse', 'Redeem Voucher', 'Order Status']
+                },
+                links: {
+                    title: 'USEFUL LINKS',
+                    list: ['Policies & Rules', 'Privacy Policy', 'License Policy', 'My Account', 'Locality']
+                },
+                newsletter: {
+                    title: 'NEWSLETTER',
+                    message: 'Subscribe To Receive Inspiration, Ideas & News In Your Inbox',
+                    inputEmail: ''
+                },
+                copyright: '2024 All Rights Reserved. Developed By Paolo Marzocchi'
+            }
         }
     },
 }
 </script>
 
 <template>
-    <AppHeader :logo="navBar.logo" :menu="navBar.menu" :icons="navBar.icons"></AppHeader>
+    <AppHeader :logo="navBarEl.logo" :menu="navBarEl.menu" :icons="navBarEl.icons"></AppHeader>
 
     <AppMain></AppMain>
+    <AppFooter :footerEl="footerEl"></AppFooter>
 
-    <AppFooter></AppFooter>
 </template>
 
 <style></style>
