@@ -339,10 +339,6 @@ export default {
 
 <style>
 #site-main {
-
     margin: 0 5px;
-
-
-
 }
 </style>
